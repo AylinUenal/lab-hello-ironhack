@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+}
+
+.topContainer {
+  color: white;
+  background-color: #1e2333;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.bottomContainer div {
+  margin: 40px;
+}
+
+.bottomContainer p {
+  color: gray;
+}
+
+.icon-img {
+  width: 130px;
+}
